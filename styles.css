@@ -55,5 +55,9 @@ p {
     margin-left: auto;
     margin-right: auto;
     margin-top: 5vh;
-    background-color: red;
+}
+
+.project-container {
+    background-color: #3399ff;
+    border-radius: 20px;
 }
