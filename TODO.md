@@ -14,8 +14,10 @@
 
 - [x] feat(css, html): Add container for nav
 - [X] feat(xcf): Created icons and modified assets for nav content
-- [ ] feat(css, html): Add content for nav
-- [ ] feat(css, html): Add links for nav
+- [X] feat(css, html): Add content for nav
+- [X] feat(css, html): Reposition nav bar container
+- [X] feat(html): Add links for nav
+- [ ] feat(JS, html): Add obfuscation and HTML entities for email link
 - [ ] feat(css, html): Add GitHub content and link for nav
 
 ## Responsive Design
