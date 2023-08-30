@@ -6,7 +6,8 @@
   - [x] feat(css): Add grid containers for project tiles
   - [x] feat(css, html): Add container for project tile headers
   - [x] feat(css, html): Add content for project tile headers
-  - [ ] feat(css, html): Add links for project tiles
+  - [x] feat(css, html): Add links for project tiles
+  - [ ] feat(xcf): Create project tile graphics
 
 ## Navigation
 
