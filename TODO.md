@@ -13,8 +13,10 @@
 ## Navigation
 
 - [x] feat(css, html): Add container for nav
+- [X] feat(xcf): Created icons and modified assets for nav content
 - [ ] feat(css, html): Add content for nav
 - [ ] feat(css, html): Add links for nav
+- [ ] feat(css, html): Add GitHub content and link for nav
 
 ## Responsive Design
 
