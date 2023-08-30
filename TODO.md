@@ -8,6 +8,7 @@
   - [x] feat(css, html): Add content for project tile headers
   - [x] feat(css, html): Add links for project tiles
   - [ ] feat(xcf): Create project tile graphics
+  - [ ] feat(xcf): Add shadow to project tiles
 
 ## Navigation
 
