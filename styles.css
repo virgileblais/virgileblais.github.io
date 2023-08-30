@@ -2,12 +2,43 @@
     margin: 0;
     border: 0;
     padding: 0;
+    font-family: sans-serif;
 }
 
 #header-container {
     width: 100vw;
     height: 50vh;
     background-color: #3399ff;
+    color: white;
+}
+
+#header-content-container {
+    display: flex;
+    flex-direction: column;
+    width: 76vw;
+    height: 40vh;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+#greeting-container {
+    margin-top: 5vh;
+}
+
+#introduction-text1 {
+    margin-top: 5vh;
+}
+
+#introduction-text2 {
+    margin-top: 5vh;
+}
+
+h1 {
+    font-size: 85px;
+}
+
+p {
+    font-size: 50px;
 }
 
 #body-container {
