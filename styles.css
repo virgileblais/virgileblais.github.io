@@ -5,6 +5,14 @@
     font-family: sans-serif;
 }
 
+#nav-container {
+    width: 200px;
+    position: fixed;
+    top: 1vh;
+    right: 2vw;
+    background-color: red;
+}
+
 #header-container {
     width: 100vw;
     height: 50vh;

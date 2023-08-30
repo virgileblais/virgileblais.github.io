@@ -11,7 +11,7 @@
 
 ## Navigation
 
-- [ ] feat(css, html): Add container for nav
+- [x] feat(css, html): Add container for nav
 - [ ] feat(css, html): Add content for nav
 - [ ] feat(css, html): Add links for nav
 
