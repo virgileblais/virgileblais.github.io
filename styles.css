@@ -8,30 +8,16 @@
 #nav-container {
     width: 100vw;
     height: 80px;
-    position: fixed;
     background-color: #3399ff;
-    border: 2px solid red;
     display: flex;
     flex-direction: row;
     align-items: center;
-}
-
-#social-media-container {
-    /* top: 1vh;
-    right: 2vw; */
-    width: auto;
-    height: auto;
-    right: 0;
-    border: 2px solid red;
+    justify-content: end;
 }
 
 nav {
-    /* display: flex;
-    align-items: center; */
-    width: auto;
-    height: auto;
-    right: 0;
-    border: 2px solid red;
+    margin-left: 2vh;
+    margin-right: 1vh;
 }
 
 .logo {
