@@ -58,6 +58,15 @@ p {
 }
 
 .project-container {
+    display: flex;
     background-color: #3399ff;
     border-radius: 20px;
+    overflow: hidden;
+}
+
+.project-header-container {
+    width: 30%;
+    height: 15%;
+    align-self: end;
+    background-color: red;
 }
