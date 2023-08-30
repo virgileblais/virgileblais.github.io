@@ -1,0 +1,28 @@
+* {
+    margin: 0;
+    border: 0;
+    padding: 0;
+}
+
+#header-container {
+    width: 100vw;
+    height: 50vh;
+    background-color: #3399ff;
+}
+
+#body-container {
+    background-color: white;
+}
+
+#body-content-container {
+    display: grid;
+    grid-template-columns: 1fr;
+    grid-template-rows: repeat(2, 1fr);
+    grid-row-gap: 5vh;
+    width: 76vw;
+    height: 40vh;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 5vh;
+    background-color: red;
+}
