@@ -1,10 +1,3 @@
-// function sendEmail() {
-//     let userName = "virgileblais";
-//     let emailDomain = "gmail";
-//     let topLevelDomain = "com";
-//     window.location.href = "mailto:" + userName + "@" + domain + "." + topLevelDomain;
-// }
-
 document.addEventListener('DOMContentLoaded', function() {
     let emailIcon = document.getElementById('email-icon-container');
 

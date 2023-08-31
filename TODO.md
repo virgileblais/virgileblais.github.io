@@ -17,7 +17,8 @@
 - [X] feat(css, html): Add content for nav
 - [X] feat(css, html): Reposition nav bar container
 - [X] feat(html): Add links for nav
-- [ ] feat(JS, html): Add obfuscation and HTML entities for email link
+- [X] feat(JS, html): Add obfuscation and HTML entities for email link
+- [ ] feat(html, css, JS): Add dropdown menu for hamburger icon
 - [ ] feat(css, html): Add GitHub content and link for nav
 
 ## Responsive Design
