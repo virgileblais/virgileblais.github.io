@@ -24,3 +24,9 @@
 ## Responsive Design
 
 - [ ] feat(css, html): Add desktop breakpoint
+
+## Additional Pages
+
+- [ ] feat(html, css): Make 404 page
+- [ ] feat(html, cs, JSS): Make contact page
+- [ ] feat(html, cs, JSS): Make resume page
