@@ -3,32 +3,36 @@
 ## General Tasks
 
 - [ ] **Project Tiles**
-  - [x] feat(css): Add grid containers for project tiles
-  - [x] feat(css, html): Add container for project tile headers
-  - [x] feat(css, html): Add content for project tile headers
-  - [x] feat(css, html): Add links for project tiles
-  - [ ] feat(xcf): Create project tile graphics
-  - [ ] feat(xcf): Add shadow to project tiles
+  - [x] feat(css): add grid containers for project tiles
+  - [x] feat(css, html): add container for project tile headers
+  - [x] feat(css, html): add content for project tile headers
+  - [x] feat(css, html): add links for project tiles
+  - [ ] feat(js, css, html): create digital rain backround effect
+  - [ ] feat(js, css, html): add glow effect to digital rain
+  - [ ] feat(js, css, html): adjust timing of digital rain
+  - [ ] feat(ase): create rocket graphic
+  - [ ] feat(html, css): add rocket graphic to roadmap project tile
+  - [ ] feat(xcf): add shadow to project tiles
 
 ## Navigation
 
-- [x] feat(css, html): Add container for nav
-- [X] feat(xcf): Created icons and modified assets for nav content
-- [X] feat(css, html): Add content for nav
-- [X] feat(css, html): Reposition nav bar container
-- [X] feat(html): Add links for nav
-- [X] feat(JS, html): Add obfuscation and HTML entities for email link
-- [X] feat(html, css, JS): Add dropdown menu for hamburger icon
-- [ ] feat(html, css, JS): Debug dropdown click event
-- [ ] feat(html, css, JS): Add opacity to rest of page on dropdown click event
-- [ ] feat(css, html): Add GitHub content and link for nav
+- [x] feat(css, html): add container for nav
+- [X] feat(xcf): created icons and modified assets for nav content
+- [X] feat(css, html): add content for nav
+- [X] feat(css, html): reposition nav bar container
+- [X] feat(html): add links for nav
+- [X] feat(JS, html): add obfuscation and HTML entities for email link
+- [X] feat(html, css, JS): add dropdown menu for hamburger icon
+- [ ] feat(html, css, JS): debug dropdown click event
+- [ ] feat(html, css, JS): add opacity to rest of page on dropdown click event
+- [ ] feat(css, html): add GitHub content and link for nav
 
 ## Responsive Design
 
-- [ ] feat(css, html): Add desktop breakpoint
+- [ ] feat(css, html): add desktop breakpoint
 
 ## Additional Pages
 
-- [ ] feat(html, css): Make 404 page
-- [ ] feat(html, cs, JSS): Make contact page
-- [ ] feat(html, cs, JSS): Make resume page
+- [ ] feat(html, css): make 404 page
+- [ ] feat(html, cs, JSS): make contact page
+- [ ] feat(html, cs, JSS): make resume page
