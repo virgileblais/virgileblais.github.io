@@ -18,15 +18,17 @@
 				</a>
 			</div>
 			<nav>
-				<a id="hamburger-icon-container">
-					<img class="icon" id="hamburger-icon" src="assets/social-media-logos/hamburger-icon.png" alt="Email Icon"/>
-				</a>
-				<ul id="hamburger-dropdown" class="hidden">
-					<li><a class="dropdown-items" id="roadmap-item" href="#">Roadmap</a></li>
-					<li><a class="dropdown-items" href="#">Practice</a></li>
-					<li><a class="dropdown-items" href="#">Contact</a></li>
-					<li><a class="dropdown-items" href="#">Resume</a></li>
-				</ul>
+				<div class="dropdown" id="dropdown-container" data-dropdown>
+					<button id="hamburger-button" class="link" [data-dropdown-button]>
+						<img id="hamburger-icon" src="assets/social-media-logos/hamburger-icon.png" alt="Hamburger Menu Icon"/>
+					</button>
+					<div class="dropdown-menu information-grid">
+						<div class="dropdown-links">
+							<a href="https://virgileblais.github.io/roadmap/" class= "link" id="roadmap-link">Roadmap</a>
+							<a href="https://github.com/virgileblais/practice" class= "link" id="practice-link">Practice</a>
+						</div>
+					</div>
+				</div>
 			</nav>			
 		</div>
 		<div id="header-container">
@@ -55,7 +57,6 @@
 			</div>
 		</div>
 		<script src="digital-rain.js"></script>
-		<script> src="hamburger-dropdown.js"></script>
 		<script defer src="email-obfuscation.js"></script>
 	</body>
 </html>
