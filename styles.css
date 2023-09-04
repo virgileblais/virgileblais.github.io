@@ -140,7 +140,15 @@ body {
 }
 
 #rocket-container {
+    display: block;
+    height: auto;
+    width: auto;
     margin-left: 12vw;
+}
+
+#rocket-gif {
+    display: block;
+    height: 8em;
 }
 
 #roadmap-project-header-container, #practice-project-header-container {

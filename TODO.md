@@ -1,8 +1,11 @@
 # TODO
 
-## General Tasks
+## Header
 
-- [ ] **Project Tiles**
+  - [ ] feat(html, css, png): add profile picture
+
+## Project Tiles
+
   - [x] feat(css): add grid containers for project tiles
   - [x] feat(css, html): add container for project tile headers
   - [x] feat(css, html): add content for project tile headers
@@ -12,6 +15,8 @@
   - [ ] feat(js, css, html): adjust timing of digital rain
   - [X] feat(ase): create rocket graphic
   - [X] feat(html, css): add rocket graphic to roadmap project tile
+  - [X] fix(html, css): adjust rocket graphic sizing
+  - [ ] fix(html, css): adjust rocket graphic positioning
   - [ ] feat(xcf): add shadow to project tiles
 
 ## Navigation
