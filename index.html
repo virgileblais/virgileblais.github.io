@@ -4,23 +4,23 @@
 		<title>Virgile Blais' User Github Page</title>
 		<link rel="stylesheet" href="styles.css">
 	</head>
-	<body>
+	<header>
 		<div id="nav-container">
 			<div id="social-media-container">
 				<a id="x-logo-container" href="https://twitter.com/virgileblais">
-					<img class="logo" id="twitter-logo" src="assets/social-media-logos/x-logo/logo-white.png" alt="Twitter Logo"/>
+					<img class="logo" id="twitter-logo" src="assets/nav-icons/x-logo/logo-white.png" alt="Twitter Logo"/>
 				</a>
 				<a id="linkedin-logo-container" href="https://www.linkedin.com/in/virgile-bissonnette-blais-b3b067155/">
-					<img class="logo" id="linkedin-logo" src="assets/social-media-logos/LinkedIn-Logos/LI-In-Bug-white.png" alt="LinkedIn Logo"/>
+					<img class="logo" id="linkedin-logo" src="assets/nav-icons/LinkedIn-Logos/LI-In-Bug-white.png" alt="LinkedIn Logo"/>
 				</a>
 				<a  id="email-icon-container" href="#">
-					<img class="icon" id="email-icon" src="assets/social-media-logos/email-icon-white.png" alt="Email Icon"/>
+					<img class="icon" id="email-icon" src="assets/nav-icons/email-icon-white.png" alt="Email Icon"/>
 				</a>
 			</div>
 			<nav>
 				<div class="dropdown" id="dropdown-container" data-dropdown>
 					<button id="hamburger-button" class="link" [data-dropdown-button]>
-						<img id="hamburger-icon" src="assets/social-media-logos/hamburger-icon.png" alt="Hamburger Menu Icon"/>
+						<img id="hamburger-icon" src="assets/nav-icons/hamburger-icon.png" alt="Hamburger Menu Icon"/>
 					</button>
 					<div class="dropdown-menu information-grid">
 						<div class="dropdown-links">
@@ -31,6 +31,8 @@
 				</div>
 			</nav>			
 		</div>
+	</header>
+	<body>
 		<div id="header-container">
 			<div id="header-content-container">
 				<div id="greeting-container">
@@ -45,11 +47,11 @@
 		<div id="body-container">
 			<div id="body-content-container">
 				<a class="project-container" id="roadmap-project-container" href="https://virgileblais.github.io/roadmap/">
-					<div class="project-header-container" id="roadmap-project-header-container">
+					<div class="project-header-container" id="practice-project-header-container">
 						<h3>Roadmap</h3>
 					</div>
 					<div id="rocket-container">
-						<img src="/assets/rocket-assets/starship-fire-animated-white.gif" alt="Animated Rocket">
+						<img id="rocket-git" src="/assets/rocket-assets/starship-fire-animated-white.gif" alt="Animated Rocket">
 					</div>
 				</a>
 				<a class="project-container" id="practice-project-container" href="https://github.com/virgileblais/practice">
@@ -57,6 +59,16 @@
 						<h3>Practice</h3>
 					</div>
 				</a>
+				<!-- <a class="project-container" id="dev-projects-project-container" href="#">
+					<div class="project-header-container" id="dev-projects-header-container">
+						<h3>Dev Projects</h3>
+					</div>
+				</a> -->
+				<!-- <a class="project-container" id="graphic-design-project-container" href="#">
+					<div class="project-header-container" id="graphic-design-header-container">
+						<h3>Graphic Design</h3>
+					</div>
+				</a> -->
 			</div>
 		</div>
 		<script src="digital-rain.js"></script>
