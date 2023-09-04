@@ -136,12 +136,21 @@ p {
 
 .project-container {
     display: flex;
+    flex-direction: row;
     background-color: #3399ff;
     border-radius: 20px;
     overflow: hidden;
 }
 
-#roadmap-project-container, #practice-project-header-container {
+#rocket-container {
+    margin-left: 12vw;
+    /* flex: 100%;
+    display: flex; 
+    justify-content: center;
+    align-items: center; */
+}
+
+#roadmap-project-header-container, #practice-project-header-container {
     font-family: sans-serif;
 }
 
