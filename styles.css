@@ -140,10 +140,8 @@ body {
 }
 
 #rocket-container {
-    display: block;
-    height: auto;
-    width: auto;
     margin-left: 12vw;
+    align-self: center;
 }
 
 #rocket-gif {
