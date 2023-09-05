@@ -13,11 +13,15 @@
     align-items: center;
     justify-content: end;
     padding-top: 1vh;
+
+    border: 1px solid red;
 }
 
 .icon {
     width: 1.5rem;
     height: 1.5rem;
+
+    border: 1px solid red;
 }
 
 #email-icon, #linkedin-logo {
@@ -27,6 +31,8 @@
 nav {
     margin-left: 3vh;
     margin-right: 1vh;
+
+    border: 1px solid red;
 }
 
 #hamburger-button {
@@ -35,8 +41,7 @@ nav {
 
 #hamburger-icon {
     color: white;
-    width: 1.5rem;
-    height: 1.5rem;
+    height: 1vh;
     display: flex;
 }
 
@@ -83,6 +88,8 @@ nav {
 body {
     display: flex;
     flex-direction: column;
+
+    border: 1px solid red;
 }
 
 #header-container {
@@ -90,37 +97,53 @@ body {
     background-color: #3399ff;
     color: white;
     font-family: sans-serif;
+
+    border: 2px solid yellow;
 }
 
 #header-content-container {
     display: grid;
-    grid-template-columns: repeat(5, 1fr);
-    grid-template-rows: repeat(5, 1fr);
-    grid-column-gap: 10px;
-    grid-row-gap: 20px;
-    width: 76vw;
+    grid-template-columns: repeat(2, 1fr);
+    grid-template-rows: repeat(3, 1fr);
+
+    /*add gap between greeting + pro pic AND to the right of intro texts :(*/
+    /* grid-column-gap: 10px; */
+    grid-row-gap: 1vh;
+    width: 75vw;
+    height: 26vh;
     margin-top: 2vh;
-    margin-left: 12vw;
+    margin-left: 12.5vw;
+
+    border: 2px solid red;
 }
     
 #greeting-text {
     grid-area: 1 / 1 / 2 / 2;
-    width: 60vw;
+    width: 62vw;
+    height: 6vh;
+
+    border: 2px solid yellow;
 }
 
 #profile-picture {
     grid-area: 1 / 2 / 2 / 3;
-    height: 4rem;
+    height: 6vh;
+
+    border: 2px solid yellow;
 }
 
 #introduction-text1 {
     grid-area: 2 / 1 / 3 / 3;
-    width: 76vw;
+    height: 9vh;
+
+    border: 2px solid yellow;
 }
 
 #introduction-text2 {
     grid-area: 3 / 1 / 4 / 3;
-    width: 76vw;
+    height: 9vh;
+
+    border: 2px solid yellow;
 }
 
 #body-container {
