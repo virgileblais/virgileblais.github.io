@@ -12,21 +12,21 @@
     flex-direction: row;
     align-items: center;
     justify-content: end;
-}
-
-nav {
-    margin-left: 2vh;
-    margin-right: 1vh;
-}
-
-.logo {
-    width: 40px;
-    height: 40px;
+    padding-top: 1vh;
 }
 
 .icon {
-    width: 40px;
-    height: 40px;
+    width: 1.5rem;
+    height: 1.5rem;
+}
+
+#email-icon, #linkedin-logo {
+    padding-left: 0.3em;
+}
+
+nav {
+    margin-left: 3vh;
+    margin-right: 1vh;
 }
 
 #hamburger-button {
@@ -34,9 +34,10 @@ nav {
 }
 
 #hamburger-icon {
-    width: 40px;
-    height: 40px;
     color: white;
+    width: 1.5rem;
+    height: 1.5rem;
+    display: flex;
 }
 
 .dropdown {
@@ -46,7 +47,7 @@ nav {
 .dropdown-menu {
     position: absolute;
     right: 0;
-    top: calc(100% + .25rem);
+    top: calc(100% + .25em);
     background-color: white;
     box-shadow: 0 0 10px 0 rgba(0, 0, 0, 0.5);
     border-radius: 5%;
@@ -98,10 +99,6 @@ body {
     height: 40vh;
     margin-left: auto;
     margin-right: auto;
-}
-
-#greeting-container {
-    margin-top: 5vh;
 }
 
 #introduction-text1 {
