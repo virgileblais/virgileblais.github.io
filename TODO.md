@@ -2,6 +2,7 @@
 
 ## Header
 
+  - [X] feat(html, css): modify header from flex to grid for profile picture
   - [ ] feat(html, css, png): add profile picture
 
 ## Project Tiles
@@ -16,7 +17,7 @@
   - [X] feat(ase): create rocket graphic
   - [X] feat(html, css): add rocket graphic to roadmap project tile
   - [X] fix(html, css): adjust rocket graphic sizing
-  - [ ] fix(html, css): adjust rocket graphic positioning
+  - [X] fix(css): adjust rocket graphic positioning
   - [ ] feat(xcf): add shadow to project tiles
 
 ## Navigation
