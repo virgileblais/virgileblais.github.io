@@ -1,7 +1,7 @@
 # TODO
 
 ## General Tasks
-
+  - [ ] feat(xcf, ico): add favicon
 
 ## Nav Bar
   - [ ] fix(html, css): fix nav icon sizing and positioning
@@ -35,7 +35,7 @@
   - [X] feat(xcf): create temporary graphic for additional project tiles
   - [X] feat(xcf): add temporary graphic to additional project tiles
   - [X] feat(css, html): adjust sizing of graphics
-  - [ ] feat(css): adjust font sizing of project tiles
+  - [X] feat(css): adjust font sizing of project tiles
   - [ ] feat(css, js): adjust positioning of digital rain
 
 ## Navigation
