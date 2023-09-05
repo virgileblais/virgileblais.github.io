@@ -9,7 +9,7 @@
   - [X] feat(xcf, png): create profile picture image
   - [X] feat(html, css, png): add profile picture
   - [X] fix(html, css): fix header container positioning and sizing
-  - [ ] fix(html, css): fix header text font sizing
+  - [X] fix(css): fix header text font sizing
 
 ## Project Tiles
 

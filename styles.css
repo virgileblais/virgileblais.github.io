@@ -8,31 +8,24 @@
 #nav-container {
     position: relative;
     background-color: #3399ff;
+    height: 3vh;
     display: flex;
     flex-direction: row;
     align-items: center;
     justify-content: end;
-    padding-top: 1vh;
-
-    border: 1px solid red;
 }
 
 .icon {
-    width: 1.5rem;
-    height: 1.5rem;
-
-    border: 1px solid red;
+    height: 1.75vh;
 }
 
 #email-icon, #linkedin-logo {
-    padding-left: 0.3em;
+    padding-left: 1.5vw;
 }
 
 nav {
-    margin-left: 3vh;
-    margin-right: 1vh;
-
-    border: 1px solid red;
+    margin-left: 4vw;
+    margin-right: 3.5vw;
 }
 
 #hamburger-button {
@@ -41,7 +34,8 @@ nav {
 
 #hamburger-icon {
     color: white;
-    height: 1vh;
+    height: 1.75vh;
+    width: 1.75vh;
     display: flex;
 }
 
@@ -88,8 +82,6 @@ nav {
 body {
     display: flex;
     flex-direction: column;
-
-    border: 1px solid red;
 }
 
 #header-container {
@@ -97,24 +89,17 @@ body {
     background-color: #3399ff;
     color: white;
     font-family: sans-serif;
-
-    border: 2px solid yellow;
 }
 
 #header-content-container {
     display: grid;
     grid-template-columns: repeat(2, 1fr);
     grid-template-rows: repeat(3, 1fr);
-
-    /*add gap between greeting + pro pic AND to the right of intro texts :(*/
-    /* grid-column-gap: 10px; */
     grid-row-gap: 1vh;
     width: 75vw;
     height: 26vh;
     margin-top: 2vh;
     margin-left: 12.5vw;
-
-    border: 2px solid red;
 }
     
 #greeting-text {
@@ -125,15 +110,11 @@ body {
     /* line-height: 1;  */
     display: flex;
     align-items: center;
-
-    border: 2px solid yellow;
 }
 
 #profile-picture {
     grid-area: 1 / 2 / 2 / 3;
     height: 6vh;
-
-    border: 2px solid yellow;
 }
 
 #introduction-text1 {
@@ -142,7 +123,6 @@ body {
     font-size: 2.1vh;
     line-height: 1.1;
 
-    border: 2px solid yellow;
 }
 
 #introduction-text2 {
@@ -150,8 +130,6 @@ body {
     height: 9vh;
     font-size: 2.1vh;
     line-height: 1.1;
-
-    border: 2px solid yellow;
 }
 
 #body-container {
