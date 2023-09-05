@@ -1,5 +1,8 @@
 # TODO
 
+## General Tasks
+
+
 ## Nav Bar
   - [ ] fix(html, css): fix nav icon sizing and positioning
 
@@ -44,6 +47,11 @@
 - [ ] feat(html, css, js): add 'work with me' popup form
 - [ ] feat(html, css, JS): add opacity to rest of page on dropdown click event
 - [ ] feat(css, html): add GitHub content and link for nav
+
+## Footer
+- [X] feat(html, css): add a footer
+- [ ] feat(html, css): adjust footer positioning and child element positioning
+- [ ] feat(html, css): add scroll-up button to footer
 
 ## Responsive Design
 
