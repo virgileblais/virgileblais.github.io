@@ -32,6 +32,8 @@
   - [X] feat(css, html): modify body from flex to grid
   - [X] feat(css): adjust body grid sizing and spacing
   - [X] feat(css, html): add additional project tiles
+  - [X] feat(xcf): create temporary graphic for additional project tiles
+  - [ ] feat(xcf): add temporary graphic to additional project tiles
 
 ## Navigation
 
