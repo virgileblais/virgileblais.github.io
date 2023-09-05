@@ -8,7 +8,8 @@
   - [X] feat(html, css): modify header from flex to grid for profile picture
   - [X] feat(xcf, png): create profile picture image
   - [X] feat(html, css, png): add profile picture
-  - [ ] fix(html, css): fix header container positioning and sizing
+  - [X] fix(html, css): fix header container positioning and sizing
+  - [ ] fix(html, css): fix header text font sizing
 
 ## Project Tiles
 
