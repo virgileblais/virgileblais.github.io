@@ -4,7 +4,7 @@
 
   - [X] feat(html, css): modify header from flex to grid for profile picture
   - [X] feat(xcf, png): create profile picture image
-  - [ ] feat(html, css, png): add profile picture
+  - [X] feat(html, css, png): add profile picture
 
 ## Project Tiles
 
@@ -13,6 +13,7 @@
   - [x] feat(css, html): add content for project tile headers
   - [x] feat(css, html): add links for project tiles
   - [X] feat(js, css, html): create digital rain backround effect
+  - [ ] fix(html, css): adjust digital rain sizing
   - [ ] feat(js, css, html): add glow effect to digital rain
   - [ ] feat(js, css, html): adjust timing of digital rain
   - [X] feat(ase): create rocket graphic

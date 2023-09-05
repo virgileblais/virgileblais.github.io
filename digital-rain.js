@@ -1,13 +1,13 @@
 matrixContainer = document.querySelector("#practice-project-container");
 			matrixContainer.classList.add("matrix");
 			
-			const numberOfColumns = 50;
+			const numberOfColumns = 30;
 
 			for (let i = 0; i < numberOfColumns; i++) {
 				const column = document.createElement("div");
 				column.classList.add("matrix-column");
 				column.style.left = `${i * 20}px`;
-				column.style.animationDuration = `${Math.random() * 8 + 8}s`;
+				column.style.animationDuration = `${Math.random() * 6 + 3}s`;
 				column.style.animationDelay = `${Math.random()}s`;
 			
 				const chars = 25;

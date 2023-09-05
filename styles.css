@@ -188,8 +188,7 @@ body {
 
 .matrix-column {
     position: absolute;
-    top: -200%;
-    font-size: 20px;
+    top: -310%;
     opacity: 0.8;
     animation: matrixRain linear infinite;
     text-shadow: linear-gradient(rgba(0, 255, 0, 0.1), transparent, white);
@@ -204,7 +203,7 @@ body {
 
 @keyframes matrixRain {
     to {
-        transform: translateY(calc(100% + 600px)); 
+        transform: translateY(calc(100% + 200px)); 
     }
 }
 
