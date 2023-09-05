@@ -33,7 +33,10 @@
   - [X] feat(css): adjust body grid sizing and spacing
   - [X] feat(css, html): add additional project tiles
   - [X] feat(xcf): create temporary graphic for additional project tiles
-  - [ ] feat(xcf): add temporary graphic to additional project tiles
+  - [X] feat(xcf): add temporary graphic to additional project tiles
+  - [X] feat(css, html): adjust sizing of graphics
+  - [ ] feat(css): adjust font sizing of project tiles
+  - [ ] feat(css, js): adjust positioning of digital rain
 
 ## Navigation
 

@@ -176,7 +176,7 @@ body {
 
 #rocket-gif {
     display: block;
-    height: 8em;
+    height: 10vh;
 }
 
 .project-header-container {
@@ -227,6 +227,14 @@ body {
     display: block;
     transform: rotate(90deg);
     margin-bottom: 5px;
+}
+
+#construction-sign {
+    height: 10vh;
+    margin-left: 5vw;
+    margin-top: 2vh;
+    align-self: center;
+    justify-self: center;
 }
 
 footer {
