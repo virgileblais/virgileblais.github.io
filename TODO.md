@@ -50,7 +50,7 @@
 
 ## Footer
 - [X] feat(html, css): add a footer
-- [ ] feat(html, css): adjust footer positioning and child element positioning
+- [X] feat(html, css): adjust footer positioning and child element positioning
 - [ ] feat(html, css): add sticky positioning to footer
 - [ ] feat(html, css): add scroll-up button to footer
 
