@@ -143,19 +143,19 @@ body {
 #body-container {
     background-color: white;
     
-    /* border: 2px solid red; */
+    border: 2px solid red;
 }
 
 #body-content-container {
     display: grid;
     grid-template-columns: 1fr;
     grid-template-rows: repeat(2, 1fr);
-    grid-row-gap: 2vh;
-    width: 74vw;
+    grid-row-gap: 5vh;
+    width: 75vw;
     margin-left: 12.5vw;
     margin-top: 5vh;
 
-    /* border: 2px solid red; */
+    border: 2px solid red;
 }
 
 .project-container {

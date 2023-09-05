@@ -27,6 +27,7 @@
   - [X] fix(css): adjust rocket graphic positioning
   - [ ] feat(css): add shadow to project tiles
   - [X] feat(css, html): modify body from flex to grid
+  - [X] feat(css): adjust body grid sizing and spacing
   - [ ] feat(css, html): add additional project tiles
 
 ## Navigation
