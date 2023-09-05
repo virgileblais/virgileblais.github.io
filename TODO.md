@@ -13,14 +13,16 @@
   - [x] feat(css, html): add content for project tile headers
   - [x] feat(css, html): add links for project tiles
   - [X] feat(js, css, html): create digital rain backround effect
-  - [ ] fix(html, css): adjust digital rain sizing
+  - [X] fix(css, js): adjust digital rain sizing and timing
   - [ ] feat(js, css, html): add glow effect to digital rain
   - [ ] feat(js, css, html): adjust timing of digital rain
   - [X] feat(ase): create rocket graphic
   - [X] feat(html, css): add rocket graphic to roadmap project tile
   - [X] fix(html, css): adjust rocket graphic sizing
   - [X] fix(css): adjust rocket graphic positioning
-  - [ ] feat(xcf): add shadow to project tiles
+  - [ ] feat(css): add shadow to project tiles
+  - [ ] feat(css, html): modify body from flex to grid
+  - [ ] feat(css, html): add additional project tiles
 
 ## Navigation
 
@@ -32,6 +34,8 @@
 - [X] feat(JS, html): add obfuscation and HTML entities for email link
 - [X] feat(html, css, JS): add dropdown menu for hamburger icon
 - [X] fix(html, css, JS): debug dropdown click event
+- [ ] feat(html, css): add 'work with me' form button
+- [ ] feat(html, css, js): add 'work with me' popup form
 - [ ] feat(html, css, JS): add opacity to rest of page on dropdown click event
 - [ ] feat(css, html): add GitHub content and link for nav
 
