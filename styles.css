@@ -13,6 +13,8 @@
     flex-direction: row;
     align-items: center;
     justify-content: end;
+
+    /* border: 2px solid red; */
 }
 
 .icon {
@@ -85,7 +87,7 @@ body {
 }
 
 #header-container {
-    height: 30vh;
+    height: 35vh;
     background-color: #3399ff;
     color: white;
     font-family: sans-serif;
@@ -95,11 +97,13 @@ body {
     display: grid;
     grid-template-columns: repeat(2, 1fr);
     grid-template-rows: repeat(3, 1fr);
-    grid-row-gap: 1vh;
+    grid-row-gap: 2vh;
     width: 75vw;
-    height: 26vh;
+    height: 28vh;
     margin-top: 2vh;
     margin-left: 12.5vw;
+
+    /* border: 3px solid red; */
 }
     
 #greeting-text {
@@ -107,9 +111,10 @@ body {
     width: 62vw;
     height: 6vh;
     font-size: 3.3vh;
-    /* line-height: 1;  */
     display: flex;
     align-items: center;
+
+    /* border: 2px solid yellow; */
 }
 
 #profile-picture {
@@ -123,6 +128,7 @@ body {
     font-size: 2.1vh;
     line-height: 1.1;
 
+    /* border: 3px solid yellow; */
 }
 
 #introduction-text2 {
@@ -130,27 +136,30 @@ body {
     height: 9vh;
     font-size: 2.1vh;
     line-height: 1.1;
+
+    /* border: 3px solid yellow; */
 }
 
 #body-container {
     background-color: white;
+    
+    /* border: 2px solid red; */
 }
 
 #body-content-container {
     display: grid;
     grid-template-columns: 1fr;
     grid-template-rows: repeat(2, 1fr);
-    grid-row-gap: 5vh;
-    width: 76vw;
-    height: 40vh;
-    margin-left: auto;
-    margin-right: auto;
+    grid-row-gap: 2vh;
+    width: 74vw;
+    margin-left: 12.5vw;
     margin-top: 5vh;
+
+    /* border: 2px solid red; */
 }
 
 .project-container {
-    height: 100%;
-    width: 100%;
+    height: 15vh;
     position: relative;
     display: flex;
     flex-direction: row;
