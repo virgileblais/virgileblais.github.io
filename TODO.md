@@ -3,6 +3,7 @@
 ## Header
 
   - [X] feat(html, css): modify header from flex to grid for profile picture
+  - [X] feat(xcf, png): create profile picture image
   - [ ] feat(html, css, png): add profile picture
 
 ## Project Tiles

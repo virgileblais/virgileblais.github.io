@@ -90,9 +90,6 @@ body {
     background-color: #3399ff;
     color: white;
     font-family: sans-serif;
-
-    /*border*/
-    border: 1px solid red;
 }
 
 #header-content-container {
@@ -104,40 +101,26 @@ body {
     width: 76vw;
     margin-top: 2vh;
     margin-left: 12vw;
-
-    /*border*/
-    border: 1px solid yellow;
 }
     
 #greeting-text {
     grid-area: 1 / 1 / 2 / 2;
     width: 60vw;
-
-    /*border*/
-    border: 1px solid red;
 }
 
 #profile-picture {
     grid-area: 1 / 2 / 2 / 3;
-
-    /*border*/
-    border: 1px solid yellow;
+    height: 4rem;
 }
 
 #introduction-text1 {
     grid-area: 2 / 1 / 3 / 3;
     width: 76vw;
-
-    /*border*/
-    border: 1px solid yellow;
 }
 
 #introduction-text2 {
     grid-area: 3 / 1 / 4 / 3;
     width: 76vw;
-
-    /*border*/
-    border: 1px solid yellow;
 }
 
 #body-container {
