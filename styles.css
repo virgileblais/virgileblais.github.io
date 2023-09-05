@@ -142,6 +142,7 @@ body {
 
 #body-container {
     background-color: white;
+    padding-bottom: 8vh;
     
     border: 2px solid red;
 }
@@ -178,15 +179,12 @@ body {
     height: 8em;
 }
 
-#roadmap-project-header-container, #practice-project-header-container {
-    font-family: sans-serif;
-}
-
 .project-header-container {
     width: 30%;
     align-self: end;
     margin-left: 1em;
     color: white;
+    font-family: sans-serif;
 }
 
 @font-face {
