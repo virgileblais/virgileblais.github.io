@@ -1,7 +1,7 @@
 # TODO
 
 ## General Tasks
-  - [ ] feat(xcf, ico): add favicon
+  - [X] feat(xcf, ico): add favicon
 
 ## Nav Bar
   - [ ] fix(html, css): fix nav icon sizing and positioning
@@ -48,7 +48,7 @@
 - [X] feat(JS, html): add obfuscation and HTML entities for email link
 - [X] feat(html, css, JS): add dropdown menu for hamburger icon
 - [X] fix(html, css, JS): debug dropdown click event
-- [X] feat(css): add fixed positioning to nav
+- [X] feat(css): add fixed positioning to nav container
 - [ ] feat(html, css): add 'work with me' form button
 - [ ] feat(html, css, js): add 'work with me' popup form
 - [ ] feat(html, css, JS): add opacity to rest of page on dropdown click event
