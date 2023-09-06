@@ -58,7 +58,7 @@
 - [X] feat(html, css): adjust footer positioning and child element positioning
 - [X] feat(css): add colors to footer
 - [X] feat(html, css): add sticky positioning to footer
-- [ ] fix(css): fix sticky positioning of footer
+- [X] feat(css): remove sticky positioning from footer
 - [ ] feat(html, css): add scroll-up button to footer
 
 ## Responsive Design
