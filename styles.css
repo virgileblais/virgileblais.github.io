@@ -6,7 +6,9 @@
 }
 
 #nav-container {
-    position: relative;
+    position: fixed;
+    top: 0;
+    width: 100vw;
     background-color: #3399ff;
     height: 3vh;
     display: flex;
@@ -82,6 +84,7 @@ nav {
 body {
     display: flex;
     flex-direction: column;
+    margin-top: 3vh;
 }
 
 #header-container {
@@ -132,7 +135,7 @@ body {
 
 #body-container {
     background-color: white;
-    padding-bottom: 8vh;
+    margin-bottom: 8vh;
 }
 
 #body-content-container {
