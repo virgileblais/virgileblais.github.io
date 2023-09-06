@@ -1,7 +1,7 @@
 matrixContainer = document.querySelector("#practice-project-container");
 			matrixContainer.classList.add("matrix");
 			
-			const numberOfColumns = 30;
+			const numberOfColumns = 50;
 
 			for (let i = 0; i < numberOfColumns; i++) {
 				const column = document.createElement("div");

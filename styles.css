@@ -133,8 +133,6 @@ body {
 #body-container {
     background-color: white;
     padding-bottom: 8vh;
-    
-    /* border: 2px solid red; */
 }
 
 #body-content-container {
@@ -145,8 +143,6 @@ body {
     width: 75vw;
     margin-left: 12.5vw;
     margin-top: 5vh;
-
-    /* border: 2px solid red; */
 }
 
 .project-container {
@@ -189,14 +185,11 @@ body {
     font-weight: bold;
     color: white;
     overflow: hidden;
-    width: 100%;
-    height: 100%;
 }
 
 .matrix-column {
     position: absolute;
-    top: -310%;
-    opacity: 0.8;
+    bottom: 15vh;
     animation: matrixRain linear infinite;
     text-shadow: linear-gradient(rgba(0, 255, 0, 0.1), transparent, white);
     -webkit-mask-image: linear-gradient(to top, rgba(0, 0, 0, 1), rgba(0, 0, 0, 0));

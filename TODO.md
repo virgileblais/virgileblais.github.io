@@ -36,7 +36,7 @@
   - [X] feat(xcf): add temporary graphic to additional project tiles
   - [X] feat(css, html): adjust sizing of graphics
   - [X] feat(css): adjust font sizing of project tiles
-  - [ ] feat(css, js): adjust positioning of digital rain
+  - [X] fix(css, js): restore original positioning of digital rain
 
 ## Navigation
 
@@ -58,6 +58,7 @@
 - [X] feat(html, css): adjust footer positioning and child element positioning
 - [X] feat(css): add colors to footer
 - [X] feat(html, css): add sticky positioning to footer
+- [ ] fix(css): fix sticky positioning of footer
 - [ ] feat(html, css): add scroll-up button to footer
 
 ## Responsive Design
