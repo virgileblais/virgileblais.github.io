@@ -1,10 +1,11 @@
 # TODO
 
 ## General Tasks
-  - [X] feat(xcf, ico): add favicon
+  - [X] feat(xcf, png): add favicon
+  - [X] feat(xcf, png): restore alpha channel to favicon
 
 ## Nav Bar
-  - [ ] fix(html, css): fix nav icon sizing and positioning
+  - [X] fix(html, css): fix nav icon sizing and positioning
 
 ## Header
 
@@ -23,7 +24,7 @@
   - [X] feat(js, css, html): create digital rain backround effect
   - [X] fix(css, js): adjust digital rain sizing and timing
   - [ ] feat(js, css, html): add glow effect to digital rain
-  - [ ] feat(js, css, html): adjust timing of digital rain
+  - [X] feat(js, css, html): adjust timing of digital rain
   - [X] feat(ase): create rocket graphic
   - [X] feat(html, css): add rocket graphic to roadmap project tile
   - [X] fix(html, css): adjust rocket graphic sizing
@@ -69,5 +70,7 @@
 ## Additional Pages
 
 - [ ] feat(html, css): make 404 page
-- [ ] feat(html, cs, JSS): make contact page
-- [ ] feat(html, cs, JSS): make resume page
+- [ ] feat(html, css): make contact page
+- [ ] feat(html, css): make resume-developer page
+- [ ] feat(html, css): make resume-nurse page
+- [ ] feat(html, css): make side-quest page
