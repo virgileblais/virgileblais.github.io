@@ -2,7 +2,14 @@
 
 ## General Tasks
   - [X] feat(xcf, png): add favicon
-  - [X] feat(xcf, png): restore alpha channel to favicon
+  - [X] fix(xcf, png): restore alpha channel to favicon
+  - [X] feat(xcf, png): create og image
+  - [X] feat(xcf, png): add og image
+  - [X] fix(html): add missing meta tags
+  - [ ] feat(html): translate to french and add french meta tags
+  - [ ] feat(html): translate to spanish and add spanish meta tags
+  - [ ] feat(html): translate to mandarin and add mandarin meta tags
+  - [ ] feat(html): translate to hindi and add hindi meta tags
 
 ## Nav Bar
   - [X] fix(html, css): fix nav icon sizing and positioning
@@ -29,7 +36,7 @@
   - [X] feat(html, css): add rocket graphic to roadmap project tile
   - [X] fix(html, css): adjust rocket graphic sizing
   - [X] fix(css): adjust rocket graphic positioning
-  - [ ] feat(css): add shadow to project tiles
+  - [X] feat(css): add box shadows to tiles and header container
   - [X] feat(css, html): modify body from flex to grid
   - [X] feat(css): adjust body grid sizing and spacing
   - [X] feat(css, html): add additional project tiles
@@ -65,11 +72,11 @@
 
 ## Responsive Design
 
-- [ ] feat(css, html): add desktop breakpoint
+- [X] feat(css): add tablet breakpoint
+- [ ] feat(css): add desktop breakpoint
 
 ## Additional Pages
 
-- [ ] feat(html, css): make 404 page
 - [ ] feat(html, css): make contact page
 - [ ] feat(html, css): make resume-developer page
 - [ ] feat(html, css): make resume-nurse page
