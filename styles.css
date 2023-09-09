@@ -3,20 +3,20 @@
     border: 0;
     padding: 0;
     text-decoration: none;
+
+    /* border: 1px solid red; */
 }
 
 #nav-container {
     position: fixed;
     top: 0;
-    width: 100vw;
+    width: 100%;
     background-color: #3399ff;
     height: 3vh;
     display: flex;
     flex-direction: row;
     align-items: center;
     justify-content: end;
-
-    border: 1px solid red;
 }
 
 .icon {
@@ -24,12 +24,12 @@
 }
 
 #email-icon, #linkedin-logo {
-    padding-left: 1.5vw;
+    padding-left: 0.1rem;
 }
 
 nav {
-    margin-left: 4vw;
-    margin-right: 3.5vw;
+    margin-left: 1.25rem;
+    margin-right: 1.25rem;
 }
 
 #hamburger-button {
@@ -84,12 +84,31 @@ nav {
 }
 
 body {
+    width: 100%;
     display: flex;
     flex-direction: column;
     margin-top: 3vh;
 }
 
-#header-container {
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+#intro-container {
     height: 35vh;
     background-color: #3399ff;
     color: white;
@@ -97,88 +116,107 @@ body {
     box-shadow: 0 5px 10px 0 rgba(0, 0, 0, 0.5);
 }
 
-#header-content-container {
+#intro-content-container {
     display: grid;
     grid-template-columns: repeat(2, 1fr);
     grid-template-rows: repeat(3, 1fr);
-    grid-row-gap: 2vh;
-    width: 75vw;
-    height: 28vh;
-    margin-top: 2vh;
-    margin-left: 12.5vw;
+    grid-row-gap: 6%;
+    /* width: 75%; */
+    height: 80%;
+    margin-top: 6%;
+    /* margin-left: 12.5%; */
 }
     
 #greeting-text {
     grid-area: 1 / 1 / 2 / 2;
-    width: 62vw;
-    height: 6vh;
-    font-size: 3.3vh;
+    width: 62%;
+    height: 17%;
+    font-size: 9%;
     display: flex;
     align-items: center;
+
+    border: 1px solid red;
 }
 
 #profile-picture {
     grid-area: 1 / 2 / 2 / 3;
-    height: 6vh;
+    height: 17%;
+
+    border: 1px solid red;
 }
 
 #introduction-text1 {
     grid-area: 2 / 1 / 3 / 3;
-    height: 9vh;
-    font-size: 2.1vh;
+    height: 26%;
+    font-size: 6%;
     line-height: 1.1;
+
+    border: 1px solid red;
 }
 
 #introduction-text2 {
     grid-area: 3 / 1 / 4 / 3;
-    height: 9vh;
-    font-size: 2.1vh;
+    height: 26%;
+    font-size: 6%;
     line-height: 1.1;
+
+    border: 1px solid red;
 }
+
+
+/*<div id="body-container">
+<div id="body-content-container">*/
 
 #body-container {
     background-color: white;
-    margin-bottom: 8vh;
+    margin-bottom: 18%;
+
+    border: 1px solid red;
 }
 
 #body-content-container {
     display: grid;
-    grid-template-columns: 1fr;
+    grid-template-columns: 75%;
     grid-template-rows: repeat(2, 1fr);
-    grid-row-gap: 5vh;
-    width: 75vw;
-    margin-left: 12.5vw;
-    margin-top: 5vh;
+    grid-row-gap: 10%;
+    width: 75%;
+    margin-left: 12.5%;
+    margin-top: 10%;
+
+    border: 1px solid red;
 }
 
 .project-container {
-    height: 15vh;
+    height: 8rem;
     display: grid;
     grid-template-columns: 1fr;
     grid-template-rows: repeat(2, 1fr); 
     background-color: #3399ff;
-    border-radius: 20px;
+    border-radius: 0.6rem;
     overflow: hidden;
-    box-shadow: 0 0 10px 0 rgba(0, 0, 0, 0.5);
+    /* box-shadow: 0 0 10px 0 rgba(0, 0, 0, 0.5); */
+
+    border: 1px solid red;
 }
 
 .graphic-container {
     justify-self: center;
-    margin-top: ;
 }
 
 #rocket-gif {
-    height: 10vh;
-    margin-top: 2vh;
+    height: 25%;
+    margin-top: 25%;
+
+    border: 1px solid red;
 }
 
 .project-header-container {
     grid-area: 2 / 1 / 3 / 2;
     align-self: end;
-    margin-left: 2vw;
+    margin-left: 2%;
     color: white;
     font-family: sans-serif;
-    font-size: 1.3vh;
+    font-size: .65rem;
 }
 
 @font-face {
@@ -196,7 +234,7 @@ body {
 
 .matrix-column {
     position: absolute;
-    bottom: 15vh;
+    bottom: 8rem;
     animation: matrixRain linear infinite;
     text-shadow: linear-gradient(rgba(0, 255, 0, 0.1), transparent, white);
     -webkit-mask-image: linear-gradient(to top, rgba(0, 0, 0, 1), rgba(0, 0, 0, 0));
@@ -210,24 +248,50 @@ body {
 
 @keyframes matrixRain {
     to {
-        transform: translateY(calc(100% + 200px)); 
+        transform: translateY(calc(100% + 8rem)); 
     }
 }
 
 .matrix span {
     display: block;
     transform: rotate(90deg);
-    margin-bottom: 5px;
+    margin-bottom: 0.2rem;
 }
 
 #construction-sign {
-    height: 10vh;
-    margin-top: 2vh;
+    height: 15%;
+    margin-top: 15%;
 }
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 footer {
     height: 3vh;
-    width: 100vw;
+    width: 100%;
     bottom: 0;
     display: flex;
     flex-direction: row;
@@ -236,41 +300,42 @@ footer {
     background-color: #3399ff;
     color: white;
     font-family: sans-serif;
+    font-size: 0.3rem;
 }
 
 #copyright-container {
-    margin-left: 12.5vw;
+    margin-left: 12.5%;
 }
 
 #nav-footer-container {
-    width: 40vw;
-    margin-right: 12.5vw;
+    width: 40%;
+    margin-right: 12.5%;
     display: grid;
-    grid-template-columns: repeat(4, 1fr);
-    grid-template-rows: 1fr;
-    grid-column-gap: 20px;
-    grid-row-gap: 0px; 
+    grid-template-columns: repeat(4, auto);
+    grid-template-rows: 75%;
+    column-gap: 0.5rem;
+    row-gap: 0;
     align-items: center;
     text-align: center;
 }
 
 #developer-footer-link {
-    grid-area: 1 / 1 / 2 / 2;
+    /* grid-area: 1 / 1 / 2 / 2; */
     color: white;
 }
 
 #graphic-designer-footer-link {
-    grid-area: 1 / 2 / 2 / 3;
+    /* grid-area: 1 / 2 / 2 / 3; */
     color: white;
 }
 
 #roadmap-footer-link {
-    grid-area: 1 / 3 / 2 / 4;
+    /* grid-area: 1 / 3 / 2 / 4; */
     color: white;
 }
 
 #practice-footer-link {
-    grid-area: 1 / 4 / 2 / 5;
+    /* grid-area: 1 / 4 / 2 / 5; */
     color: white;
 }
 
