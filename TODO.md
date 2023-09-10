@@ -12,6 +12,7 @@
   - [ ] feat(html): translate to hindi and add hindi meta tags
   - [X] fix(html, css): fix overflow issues on mobile viewports
   - [X] fix(html, css): restore sizing and positioning from before having applied scale meta tag
+  - [X] fix(html, css): adjust spacing as live test on mobile device produced different results than in dev tools
 
 ## Nav Bar
   - [X] fix(html, css): fix nav icon sizing and positioning
