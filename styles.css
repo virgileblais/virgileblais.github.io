@@ -60,7 +60,7 @@ nav {
     transition-delay: opacity 300ms ease-in, transform 150ms ease-in;
 }
 
-.dropdown > .link:focus + .dropdown-menu {
+.dropdown:hover .dropdown-menu {
     opacity: 1;
     transform: translateY(0px);
     pointer-events: auto;
@@ -110,7 +110,7 @@ body {
     
 #greeting-text {
     grid-area: 1 / 1 / 2 / 2;
-    font-size: 166%;
+    font-size: 1.65rem;
     display: flex;
     align-items: center;
 }
@@ -127,13 +127,13 @@ body {
 
 #introduction-text1 {
     grid-area: 2 / 1 / 3 / 3;
-    font-size: 115%;
+    font-size: 1.15rem;
     line-height: 1.1;
 }
 
 #introduction-text2 {
     grid-area: 3 / 1 / 4 / 3;
-    font-size: 115%;
+    font-size: 1.15rem;
     line-height: 1.1;
 }
 
