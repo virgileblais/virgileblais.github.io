@@ -56,50 +56,35 @@
 		</div>
 	</header>
 	<body>
-		<div id="intro-container">
+		<div id="intro-section">
 			<div id="intro-content-container">
 				<h1 id="greeting-text">Hey, I'm Virgile</h1>
-				<img id="profile-picture" src="assets/profile-picture.png" alt="Profile Picture"/>
+				<div id="profile-picture-container">
+					<img id="profile-picture" src="assets/profile-picture.png" alt="Profile Picture"/>
+				</div>
 				<p id="introduction-text1">I'm a self-taught developer who recently learned front-end web development and aspires to learn much, much more.</p>
 				<p id="introduction-text2">Check out my roadmap site below to see my journey thus far and where I plan to go next in my learnings.</p>
 			</div>
 		</div>
-		<div id="body-container">
-			<div id="body-content-container">
-				<a class="project-container" id="roadmap-project-container" href="https://virgileblais.github.io/roadmap/">
-					<div class="project-header-container" id="roadmap-project-header-container">
-						<h3 id="roadmap-text">Roadmap</h3>
-					</div>
-					<div id="rocket-container" class="graphic-container">
-						<img id="rocket-gif" class="graphic" src="/assets/rocket-assets/starship-fire-animated-white.gif" alt="Animated Rocket">
-					</div>
-				</a>
-				<a class="project-container" id="practice-project-container" href="https://github.com/virgileblais/practice">
-					<div class="project-header-container" id="practice-project-header-container">
-						<h3>Practice</h3>
-					</div>
-				</a>
-				<a class="project-container" id="developer-portfolio-project-container">
-					<div class="project-header-container" id="developer-portfolio-header-container">
-						<h3>Developer</h3>
-					</div>
-					<div id="construction-sign-container" class="graphic-container">
-						<img id="construction-sign" class="graphic" src="/assets/under-construction.png" alt="Construction Sign">
-					</div>
-				</a>
-				<a class="project-container" id="graphic-design-portfolio-project-container">
-					<div class="project-header-container" id="graphic-design-portfolio-header-container">
-						<h3>Graphic Designer</h3>
-					</div>
-					<div id="construction-sign-container" class="graphic-container">
-						<img id="construction-sign" src="/assets/under-construction.png" alt="Construction Sign">
-					</div>
-				</a>
-			</div>
+		<div id="project-section">
+			<a id="roadmap-project-container" class="project-container" href="https://virgileblais.github.io/roadmap/">
+				<img id="rocket-gif" class="graphic" src="/assets/rocket-assets/starship-fire-animated-white.gif" alt="Animated Rocket">
+				<h3 id="roadmap-text">Roadmap</h3>
+			</a>
+			<a id="practice-project-container" class="project-container" href="https://github.com/virgileblais/practice">
+				<h3>Practice</h3>
+			</a>
+			<a id="developer-container" class="project-container" href="#">
+				<img id="construction-sign" class="graphic" src="/assets/under-construction.png" alt="Construction Sign">
+				<h3 id="roadmap-text">Developer</h3>	
+			</a>	
+			<a id="graphic-designer-container" class="project-container" href="#">
+				<img id="construction-sign" class="graphic" src="/assets/under-construction.png" alt="Construction Sign">
+				<h3 id="roadmap-text">Graphic Designer</h3>	
+			</a>	
 		</div>
 		<script src="digital-rain.js"></script>
 		<script defer src="email-obfuscation.js"></script>
-	</body>
 	<footer>
 		<div id="copyright-container">
 			<p id="copywrite-text">© 2023 Virgile Blais</p>
@@ -111,4 +96,5 @@
 			<a id="practice-footer-link" href="https://github.com/virgileblais/practice">Practice</a>
 		</div>
 	</footer>
+	</body>
 </html>

@@ -10,8 +10,8 @@
   - [ ] feat(html): translate to spanish and add spanish meta tags
   - [ ] feat(html): translate to mandarin and add mandarin meta tags
   - [ ] feat(html): translate to hindi and add hindi meta tags
-  - [ ] fix(html, css): fix overflow issues on mobile viewports
-  - [ ] fix(html, css): restore sizing and positioning prior to appy initial scale meta tag
+  - [X] fix(html, css): fix overflow issues on mobile viewports
+  - [X] fix(html, css): restore sizing and positioning from before having applied scale meta tag
 
 ## Nav Bar
   - [X] fix(html, css): fix nav icon sizing and positioning
