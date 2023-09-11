@@ -75,8 +75,8 @@
 - [ ] feat(html, css): add scroll-up button to footer
 
 ## Responsive Design
-
-- [X] feat(css): add tablet breakpoint
+- [X] fix(css): make intro section more dynamic to handle subtle changes in viewport size
+- [ ] feat(css): add tablet breakpoint
 - [ ] feat(css): add desktop breakpoint
 
 ## Additional Pages
