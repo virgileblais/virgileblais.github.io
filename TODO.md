@@ -78,7 +78,7 @@
 - [X] fix(css): make intro section more dynamic to handle subtle changes in viewport size
 - [X] fix(css): modify aesthetics on live mobile test in lieu of device emulator
 - [X] feat(css): add tablet breakpoint
-- [X] feat(css): add desktop breakpoint
+- [X] feat(css): add small desktop breakpoint
 
 ## Additional Pages
 
