@@ -1,6 +1,6 @@
 # Hey there, I'm Virgile.👋
 
-I'm a self-taught developer who just finished learning front-end web development and aspires to learn much, much more.
+I'm a self-taught developer who recently learned front-end web development and aspires to learn much, much more.
 
 Check out my roadmap site below to see my journey thus far and where I plan to go next in my learnings.
 
