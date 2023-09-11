@@ -499,3 +499,51 @@ footer {
         padding-bottom: 1%;
     }
 }
+
+/*Ultra Large Desktop Breakpoint*/
+@media (min-width: 1730px) {
+    
+    #intro-section {
+        height: 40vh;
+      }
+
+    #intro-content-container {
+        grid-template-columns: 4fr 1fr;
+        grid-template-rows: 1fr 1fr 1fr;
+        row-gap: 1.5rem;
+    }
+
+    #greeting-text {
+        grid-area: 1 / 1 / 2 / 2;
+        font-size: 7vh;
+    }
+
+    #profile-picture-container {
+        grid-area: 1 / 2 / 4 / 3;
+        align-items: normal;
+    }
+
+    #introduction-text1 {
+        grid-area: 2 / 1 / 3 / 2;
+        font-size: 3.7vh;
+    }
+
+    #introduction-text2 {
+        grid-area: 3 / 1 / 4 / 2;
+        font-size: 3.7vh;
+    }
+    
+    #profile-picture {
+        width: 20vh;
+        height: 20vh;
+    }
+
+    .project-container {
+        height: 12rem;
+    }
+
+    .graphic {
+        height: 9rem;
+        margin-top: 2%;
+    }
+}
