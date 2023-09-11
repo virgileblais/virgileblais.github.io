@@ -76,6 +76,7 @@
 
 ## Responsive Design
 - [X] fix(css): make intro section more dynamic to handle subtle changes in viewport size
+- [X] fix(css): modify aesthetics on live mobile test in lieu of device emulator
 - [ ] feat(css): add tablet breakpoint
 - [ ] feat(css): add desktop breakpoint
 
