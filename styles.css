@@ -406,7 +406,7 @@ footer {
     }
 }
 
-/*Large Desktop Breakpoint*/
+/*Regular Desktop Breakpoint*/
 @media (min-width: 1400px) {
     
     #nav-container {
@@ -442,5 +442,60 @@ footer {
     #profile-picture {
         width: 14vh;
         height: 14vh;
+    }
+}
+
+/*Large Desktop Breakpoint*/
+@media (min-width: 1500px) {
+    
+    #nav-container {
+        height: 7vh;
+    }
+
+    nav {
+        margin-left: 3rem;
+        margin-right: 3rem;
+    }
+
+    #email-icon, #linkedin-logo {
+        padding-left: .8rem;
+      }
+
+    .icon {
+        height: 4vh;
+    }
+
+    #hamburger-icon {
+        height: 4vh;
+        width: 4vh;
+    }
+
+    #intro-content-container {
+        row-gap: 2rem;
+    }
+    
+    #greeting-text {
+        font-size: 10.5vh;
+    }
+    
+    #profile-picture {
+        width: 14vh;
+        height: 14vh;
+    }
+
+    .graphic {
+        /* height: 7.5rem; */
+        /* margin-top: 0; */
+        height: 7rem;
+        margin-top: 2.5%;
+      }
+
+    .matrix-column {
+        bottom: 10rem;
+        font-size: 1rem;
+    }
+
+    h3 {
+        padding-bottom: 1%;
     }
 }
