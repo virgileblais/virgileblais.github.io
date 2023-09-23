@@ -6,6 +6,7 @@
   - [X] feat(xcf, png): create og image
   - [X] feat(xcf, png): add og image
   - [X] fix(html): add missing meta tags
+  - [X] feat(html): change artist portfolio name from artist to multimedia designer
   - [ ] feat(html): translate to french and add french meta tags
   - [ ] feat(html): translate to spanish and add spanish meta tags
   - [ ] feat(html): translate to mandarin and add mandarin meta tags
