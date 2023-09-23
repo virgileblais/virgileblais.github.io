@@ -13,6 +13,10 @@
   - [X] fix(html, css): fix overflow issues on mobile viewports
   - [X] fix(html, css): restore sizing and positioning from before having applied scale meta tag
   - [X] fix(html, css): adjust spacing as live test on mobile device produced different results than in dev tools
+   - [ ] fix(html, css): reorder designer tile in preparation for portfolio reveal
+   - [X] feat(html, css, ase, xcf): add content to designer tile
+   - [ ] fix(html, css): adjust sizing and positioning
+
 
 ## Nav Bar
   - [X] fix(html, css): fix nav icon sizing and positioning
@@ -64,6 +68,7 @@
 - [ ] feat(html, css, js): add 'work with me' popup form
 - [ ] feat(html, css, JS): add opacity to rest of page on dropdown click event
 - [ ] feat(css, html): add GitHub content and link for nav
+- [ ] feat(html, css, js): add hover effect to nav icons
 
 ## Footer
 - [X] feat(html, css): add a footer
@@ -79,6 +84,9 @@
 - [X] fix(css): modify aesthetics on live mobile test in lieu of device emulator
 - [X] feat(css): add tablet breakpoint
 - [X] feat(css): add small desktop breakpoint
+- [X] feat(css): add regular desktop breakpoint
+- [X] feat(css): add large desktop breakpoint
+- [X] feat(css): add ultra large desktop breakpoint
 
 ## Additional Pages
 
