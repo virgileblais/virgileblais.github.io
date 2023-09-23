@@ -71,19 +71,21 @@ nav {
 .information-grid {
     display: grid;
     grid-template-columns: repeat(2, max-content);
-    gap: 2rem;
+    padding-left: 2vw;
+    padding-right: 4vw;
 }
 
 .dropdown-links {
     display: flex;
     flex-direction: column;
-    gap: 2vh;
+    gap: 1.5vh;
 }
 
 .link {
     color: #3399ff;
-    font-size: 30px;
-    padding-left: 2vh;
+    font-size: 5.5vw;
+
+    /* border: 1px solid red; */
 }
 
 body {
