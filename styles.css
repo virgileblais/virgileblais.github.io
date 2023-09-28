@@ -17,13 +17,48 @@
     display: flex;
     flex-direction: row;
     align-items: center;
-    justify-content: end;
+    justify-content: space-between;
 
     /* border: 1px solid red; */
 }
 
+#work-with-me-button-container {
+    padding-left: 10%;
+    padding-bottom: 10%;
+}
+
+#nav-link-container {
+    display: flex;
+    align-items: center;
+}
+
+#work-with-me-button {
+    height: 10vh;
+    /* margin-left: 10%; */
+    padding-left: 1rem;
+    padding-right: 1rem;
+    padding-bottom: .5rem;
+    color:#3399ff;
+    background-color: white;
+    border-radius: 20%;
+    display: flex;
+    align-items: flex-end;
+    transition: transform 0.3s ease-in-out, background-color 0.3s ease-in-out, color 0.3s ease-in-out; 
+}
+
+#work-with-me-button:hover {
+    /* transform: scale(1.1); */
+    transform: translateY(1rem)
+    /* background-color: #E0E0E0;
+    color: #0080ff; */
+}
+
 .icon {
     height: 2.5vh;
+}
+
+.icon:hover {
+    transform: scale(1.1);
 }
 
 #email-icon, #linkedin-logo {
@@ -37,6 +72,10 @@ nav {
 
 #hamburger-button {
     background: transparent;
+}
+
+#hamburger-button:hover {
+    transform: scale(1.1);
 }
 
 #hamburger-icon {
@@ -197,6 +236,10 @@ body {
     box-shadow: 0 0 10px 0 rgba(0, 0, 0, 0.5);
 
     /* border: 1px solid red; */
+}
+
+.project-container:hover {
+    transform: scale(1.02);
 }
 
 .graphic {

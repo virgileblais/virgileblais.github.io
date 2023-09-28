@@ -21,6 +21,7 @@
 
 ## Nav Bar
   - [X] fix(html, css): fix nav icon sizing and positioning
+  - [ ] feat(html,css): create cta button (Work with Me) for contact page
 
 ## Header
 
